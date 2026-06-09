@@ -1,4 +1,17 @@
 from ultralytics import YOLO
+import os
 
-# Load trained YOLO model
-model = YOLO("best.pt")
+model = None
+
+MODEL_PATH = "best.pt"
+
+if os.path.exists(MODEL_PATH):
+
+    print("Loading YOLO model...")
+
+    model = YOLO(MODEL_PATH)
+
+else:
+
+    print("WARNING: best.pt not found. Running without model.")
+
