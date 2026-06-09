@@ -1,0 +1,11 @@
+text id="4jlwm8"
+.venv/
+__pycache__/
+runs/
+uploads/
+results/
+*.pt
+*.pyc
+*.pkl
+*.log
+best.pt
