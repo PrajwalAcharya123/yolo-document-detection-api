@@ -1,4 +1,4 @@
-```yaml id="6jlwm7"
+yaml id="6jlwm7"
 name: YOLO FastAPI CI
 
 on:
@@ -61,4 +61,4 @@ jobs:
       - name: Test Metrics Endpoint
         run: |
           curl http://127.0.0.1:8000/metrics
-```
+
